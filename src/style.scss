@@ -1,0 +1,57 @@
+body{
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+   
+    
+
+
+
+    h1{
+      color: #e6e36d;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+
+    h2{
+      color: #e6e36d;
+      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+
+    .joke{
+      border: #e6e36d 1px dashed;
+      padding: 20px;
+      margin-bottom: 10px;
+      width: 60vw;
+
+
+      .spoiler{
+        color: #e6e36d;
+        background-color: #e6e36d;
+        cursor: pointer;
+      }
+    }
+
+    .btn-holder{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 10px;
+
+      button{
+        background-color: #e6e36d;
+        border-radius: 10%;
+        border-color: #e6e36d;
+        padding: 10px 20px;
+        font-family: cursive;
+      }
+    }
+  }
